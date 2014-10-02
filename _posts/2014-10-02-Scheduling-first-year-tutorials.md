@@ -4,7 +4,7 @@ title:  "Scheduling First Year Tutors"
 date:   2014-10-02 14:00:08
 categories: Scheduling Tutorials Eductaion
 published: true 
-comments: false
+comments: true
 ---
 
 This year I've been asked to be a teaching assitant for [Dr Vincent Knight's](https://plus.google.com/+VincentKnight/posts) Computing for Mathematics [module](http://vincent-knight.com/Computing_for_mathematics/).
