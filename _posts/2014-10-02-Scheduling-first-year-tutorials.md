@@ -11,15 +11,15 @@ This year I've been asked to be a teaching assitant for [Dr Vincent Knight's](ht
 There's a variety of issues I've been asked to take charge of but the first was scheduling which tutors will be taking tutorials.
 
 My initial reaction was to sit down and work it out with a pen and paper.
-This wouldn't take very long, after all the availability of certain tutors would mean that certain tutors would have to go in certain slots, and the schedule would just fall into place.
+This wouldn't take very long, after all the availability of certain tutors would mean that other tutors would have to go in certain slots, and the schedule would just fall into place.
 Once it was done it would be done, right?
 
-Not quite, there were a couple of problems with this
+Not quite, there were a couple of problems with this:
 
-1. Availabilty can change, this would mean completely redoing the timetable.
+1. Availabilty can change and this would mean completely redoing the timetable.
 2. I'm and idiot and can make mistakes
 
-So I decided to write a piece of sage code (available [here](https://github.com/JasYoung314/scheduler) ) , let's look at the mathematics behind the code.
+So I decided to write a piece of Sage code (available [here](https://github.com/JasYoung314/scheduler) ), let's look at the mathematics behind the code.
 I was able to solve the timetabling problem with some basic optimisation technique's.
 
 In any optimisation problem, the first thing to do is to think about what variables you will need.
@@ -27,7 +27,7 @@ The variables will conatin all the aspects of the problem.
 
 - \\(T\\) is the set of all the available tutors. 
 - They are then broken down into two groups, one group with are doing two hours a week \\(T_1\\), and the other group which are doing six hours \\(T_2\\).
-- The set \\(S\\) is the set of all the tutor slots. I've used the actual names instead of time slots (Although at this point that information is seared into my brain).
+- The set \\(S\\) which is the set of all the tutor slots. I've used the actual names instead of time slots (Although at this point that information is seared into my brain).
 - These are again broken down into sets \\(S_k\\). I'll explain the logic behind this later, but \\(S_k\\) is the set of all tutorials taking place at time \\(k\\).
 - \\(a\_{ij}\\) dentoes the availability of a tutor \\(i\\) to take tutorial \\(j\\) (Due to the changing schedules and timetables of the university, these variables were cutting edge research). These were collected and fed in as a matrix of ones and zeros.
 - Finally we have the decision variables \\(x\_{ij}\\).
