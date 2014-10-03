@@ -67,7 +67,7 @@ EDIT
 [Jean-Francois Puget](https://twitter.com/JFPuget) very kindly pointed out a much more elegant way of formulating the model.
 By adding in the constraint 
 
-\\[   \forall \;i \forall \;j x\_{ij} \leq a\_{ij} \\]
+\\[   \forall \;i \;\forall \;j \;x\_{ij} \leq a\_{ij} \\]
 
 Changing \\(a\{ij}\\) from 0 to \\(m\\) is not needed.
 Additionally, the first two constraints can be simplified to be
