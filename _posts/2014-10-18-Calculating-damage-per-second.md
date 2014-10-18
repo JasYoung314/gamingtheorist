@@ -137,7 +137,7 @@ Then it simply returns the DpS!
 
 So lets see what combination of items void should take. By increaseing the number of Rapiers up to are maximum of 6, and filling empty slots with mjolnirs gives the following result:
 
-![]({{site.baseurl}}/_assets/images/fvoid.png)
+![]({{site.baseurl}}/assets/images/fvoid.png)
 
 Which shows that the largest DpS is given at 4 Rapiers and 2 Mjolnirs!
 The next stage is to use these classes to simulate a fight between two carries and predict the outcome, more to come on that! 
