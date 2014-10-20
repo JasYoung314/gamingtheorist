@@ -14,39 +14,39 @@ It's something I've done since I can remember. It was something I was brought up
 My mother plays videogames, my brother plays and my girlfriend plays them.
 
 For the last year or so I've been taken with a particular game called [Defense of the Ancients 2](http://blog.dota2.com/?l=english) (DotA 2).
-The basic idea of a game is to destroy the enemy base, called an Ancient. 
+The basic idea of the game is to destroy the enemy base, called an Ancient. 
 5 hero's (from a pool of 114) on each team attempt to push through the oppositions base defense's of which there are two kinds.
 The first type is Towers.
 Towers are static structures which put out a lot of damage.
-The other kind is barracks, which weaken the opposing team if you can destroy them.
+The other kind is Barracks, which weaken the opposing team if you can destroy them.
 
 The level of complexity in this game is astounding.
 At it's [highest level](http://wiki.teamliquid.net/dota2/The_International/2014) the games attract millions of viewers and a prize pool of 10 million dollars.
 Even playing at my level I don't think I've played two games which are exactly alike.
 Different hero's on both the allied and enemy side cause each game to go very differently.
 
-Something I'd like to investigate in this blog is how game theory can be used to analyse a given match. 
+Something I'd like to investigate in this blog is how mathematics can be used to analyse a given match. 
 This would involve breaking down a match into smaller and smaller pieces, and finding the optimal action to take in these situations.
-This is the first piece of that: optimising damage output.
+This post is the first piece of that: optimising damage output.
 
 #Optimising Damage per Second
 
-While each match is different, they follow the same pattern.
-It starts of with the hero's weak, unable to fight the base defenses.
+While each match is different, they follow a similar pattern.
+It starts of with the heros weak, unable to fight the base defenses.
 Each team spends time getting stronger and stronger called farming.
 This continues until one team feels confident enough to make an assault on the base, and take out a tower or two. 
 This will go back and forth with each team chipping away at towers and barracks, all the while getting stronger and stronger.
 
 Within each team one hero will be designated the 'carry'.
-This hero is designed to be weak, at the start of the game, and if not controlled by the opposition (by killing them and stopping their farm) become strong enough to completely wipe out the enemy team by themselves.
+This hero is designed to be weak at the start of the game, but if not controlled by the opposition (by killing them and stopping their farm) become strong enough to completely wipe out the enemy team by themselves.
 This requires that the carry buys the correct items to maximise their damage per second (DpS).
 Getting the correct mix of attack speed and attack damage can be tricky as each hero can only hold 6 items, which is what the short script I've written does. 
 
 
-Lets simplify the situation. Our carry is a hero called Faceless Void. 
+Lets simplify the situation. Our carry is a hero called [Faceless Void](http://dota2.gamepedia.com/Faceless_Void). 
 He's a cherry fellow that has a nasty habit of disappearing for 20-40 minutes, reappearing and walking through your team, towers, barracks, Ancient, hopes and dreams like they were made of butter.
-The reason he can do this is his ultimate ability called chronosphere.
-He presses a button and the he gets 5 seconds of uninterrupted hitting you in the face, where you cant fight back.
+The reason he can do this is his ultimate ability called [chronosphere](http://dota2.gamepedia.com/Faceless_Void#Chronosphere).
+He presses a button and the he gets [5 seconds of uninterrupted hitting you in the face](https://www.youtube.com/watch?v=JJioix5J15c), where you can't fight back.
 However once this time is up, if he hasn't murdered everything you hold dear, he dies in about 4 hits from your carry.
 He's built for damage, not survivability.
 
