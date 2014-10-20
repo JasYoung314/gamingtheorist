@@ -10,15 +10,18 @@ comments: true
 #Introduction to DotA 2
 
 As you might be able to tell by the name of this blog, I like to play videogames.
-It's something I've done since I can remember. I was something I was brought up with. 
+It's something I've done since I can remember. It was something I was brought up with. 
 My mother plays videogames, my brother plays and my girlfriend plays them.
 
-For the last year or so I've been taken with a particular game called Defense of the Ancients 2 (DotA 2).
+For the last year or so I've been taken with a particular game called [Defense of the Ancients 2](http://blog.dota2.com/?l=english) (DotA 2).
 The basic idea of a game is to destroy the enemy base, called an Ancient. 
-5 hero's (from a pool of 114) on each team attempt to push through the oppositions base defense's , Towers which are static structures which put out a lot of damage  and barracks, which weaken the opposing team if you can destroy them.
+5 hero's (from a pool of 114) on each team attempt to push through the oppositions base defense's of which there are two kinds.
+The first type is Towers.
+Towers are static structures which put out a lot of damage.
+The other kind is barracks, which weaken the opposing team if you can destroy them.
 
 The level of complexity in this game is astounding.
-At it's highest level the games attract millions of viewers and a prize pool of 10 million dollars.
+At it's [highest level](http://wiki.teamliquid.net/dota2/The_International/2014) the games attract millions of viewers and a prize pool of 10 million dollars.
 Even playing at my level I don't think I've played two games which are exactly alike.
 Different hero's on both the allied and enemy side cause each game to go very differently.
 
