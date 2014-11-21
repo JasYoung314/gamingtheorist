@@ -4,7 +4,7 @@ title:  "A Simulating Challenge"
 date:   2014-11-14 14:00:08
 categories: Simulation Challenge Coding python
 published: true
-comments: false
+comments: true
 ---
 
 #Learning to Code
